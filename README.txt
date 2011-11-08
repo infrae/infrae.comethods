@@ -23,7 +23,7 @@ If you create more of those comethods you can nest them::
   import logging
 
   @cofunction
-  def logger(parent **options):
+  def logger(parent, **options):
       logger = logging.getLogger(options.get('name', 'default'))
       logger.info('Start')
       content = yield
