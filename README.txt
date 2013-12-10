@@ -52,5 +52,5 @@ Or alternatively::
 Where generator is a generator that yield values to work on. Of
 course, you can do more interesting things after.
 
-You can find the Mercurial code repository at:
-https://hg.infrae.com/infrae.comethods/
+You can find the Git code repository at:
+https://github.com/infrae/infrae.comethods
